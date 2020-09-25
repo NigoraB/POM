@@ -17,5 +17,19 @@ public class Basepage {
         return DriverWrapper.getDriver().findElement(locator).isDisplayed();
     }
 
+    // isSelected
+
+    // isEnabled
+
+    // getText
+
+    // getAttribute
+
+    // getTitle
+
+    // getCurrentUrl
+
+    // 
+
 
 }
