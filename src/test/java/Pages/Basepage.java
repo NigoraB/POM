@@ -1,8 +1,10 @@
 package Pages;
 
 import DriverPkg.DriverWrapper;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.sql.Driver;
@@ -82,6 +84,48 @@ public class Basepage {
         WebElement frame = findWebElement(locator);
         DriverWrapper.getDriver().switchTo().frame(frame);
     }
+
+    public Alert switchToAlert() {
+        return DriverWrapper.getDriver().switchTo().alert();
+    }
+
+    public String getAlertText(Alert alert) {
+        return alert.getText();
+    }
+
+    public void dismissAlert(Alert alert) {
+        alert.dismiss();
+    }
+
+    public void acceptAlert(Alert alert) {
+        alert.accept();
+    }
+
+    public void writeOnAlert(Alert alert, String data) {
+        alert.sendKeys(data);
+    }
+
+    public void mouseHoverOnElement(By locator) {
+        WebElement element = findWebElement(locator);
+        Actions act = new Actions(DriverWrapper.getDriver());
+        act.moveToElement(element);
+    }
+
+    public void mouseHoverOnElement(WebElement element) {
+        Actions act = new Actions(DriverWrapper.getDriver());
+        act.moveToElement(element);
+    }
+
+    public void selectFromAutoSuggestion(By locator, String selectThis) {
+        List<WebElement> suggestions = findWebElements(locator);
+        for (WebElement suggestion : suggestions) {
+            if (suggestion.getText().equalsIgnoreCase(selectThis)) {
+                suggestion.click();
+                break;
+            }
+        }
+    }
+
 
 
 
