@@ -1,0 +1,98 @@
+{
+  "uid" : "6d270eb331dffd24",
+  "name" : "signIn2",
+  "fullName" : "Testcases.SignIn.signIn2",
+  "historyId" : "a3b0190102ecd0a73b165a8df83c9330",
+  "time" : {
+    "start" : 1601907671969,
+    "stop" : 1601907671974,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initDriver",
+    "time" : {
+      "start" : 1601907665449,
+      "stop" : 1601907671948,
+      "duration" : 6499
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1601907671979,
+      "stop" : 1601907672216,
+      "duration" : 237
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Testcases.SignIn"
+  }, {
+    "name" : "testClass",
+    "value" : "Testcases.SignIn"
+  }, {
+    "name" : "testMethod",
+    "value" : "signIn2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Scholastic Regression Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Sign Up"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcases.SignIn"
+  }, {
+    "name" : "host",
+    "value" : "deepaks-mbp.lan"
+  }, {
+    "name" : "thread",
+    "value" : "34881@deepaks-mbp.lan.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browserName",
+    "value" : "chrome"
+  }, {
+    "name" : "url",
+    "value" : "https://www.facebook.com"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d270eb331dffd24.json",
+  "parameterValues" : [ "chrome", "https://www.facebook.com" ]
+}

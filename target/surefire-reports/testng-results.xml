@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Scholastic Regression Suite" duration-ms="28318" started-at="2020-10-05T14:27:24Z" finished-at="2020-10-05T14:27:53Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="16050" started-at="2020-10-05T14:27:24Z" finished-at="2020-10-05T14:27:40Z">
+      <class name="Testcases.Login">
+        <test-method status="PASS" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:Testcases.Login@2e11485]" name="initDriver" is-config="true" duration-ms="8919" started-at="2020-10-05T14:27:24Z" finished-at="2020-10-05T14:27:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="login1()[pri:0, instance:Testcases.Login@2e11485]" name="login1" duration-ms="550" started-at="2020-10-05T14:27:34Z" finished-at="2020-10-05T14:27:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Testcases.Login@2e11485]" name="quitDriver" is-config="true" duration-ms="200" started-at="2020-10-05T14:27:34Z" finished-at="2020-10-05T14:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:Testcases.Login@2e11485]" name="initDriver" is-config="true" duration-ms="5424" started-at="2020-10-05T14:27:35Z" finished-at="2020-10-05T14:27:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="login2()[pri:0, instance:Testcases.Login@2e11485]" name="login2" duration-ms="5" started-at="2020-10-05T14:27:40Z" finished-at="2020-10-05T14:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Testcases.Login@2e11485]" name="quitDriver" is-config="true" duration-ms="214" started-at="2020-10-05T14:27:40Z" finished-at="2020-10-05T14:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Testcases.Login -->
+    </test> <!-- Login -->
+    <test name="Sign Up" duration-ms="12229" started-at="2020-10-05T14:27:40Z" finished-at="2020-10-05T14:27:53Z">
+      <class name="Testcases.SignIn">
+        <test-method status="PASS" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:Testcases.SignIn@3dddefd8]" name="initDriver" is-config="true" duration-ms="4229" started-at="2020-10-05T14:27:40Z" finished-at="2020-10-05T14:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="signIn1()[pri:0, instance:Testcases.SignIn@3dddefd8]" name="signIn1" duration-ms="3" started-at="2020-10-05T14:27:45Z" finished-at="2020-10-05T14:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn1 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Testcases.SignIn@3dddefd8]" name="quitDriver" is-config="true" duration-ms="233" started-at="2020-10-05T14:27:45Z" finished-at="2020-10-05T14:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:Testcases.SignIn@3dddefd8]" name="initDriver" is-config="true" duration-ms="7357" started-at="2020-10-05T14:27:45Z" finished-at="2020-10-05T14:27:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="signIn2()[pri:0, instance:Testcases.SignIn@3dddefd8]" name="signIn2" duration-ms="30" started-at="2020-10-05T14:27:52Z" finished-at="2020-10-05T14:27:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn2 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Testcases.SignIn@3dddefd8]" name="quitDriver" is-config="true" duration-ms="343" started-at="2020-10-05T14:27:52Z" finished-at="2020-10-05T14:27:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Testcases.SignIn -->
+    </test> <!-- Sign Up -->
+  </suite> <!-- Scholastic Regression Suite -->
+</testng-results>

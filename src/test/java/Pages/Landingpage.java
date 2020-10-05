@@ -1,7 +1,5 @@
 package Pages;
 
-import DriverPkg.DriverWrapper;
-import com.sun.xml.internal.rngom.parse.host.Base;
 import org.openqa.selenium.By;
 
 public class Landingpage extends Basepage {

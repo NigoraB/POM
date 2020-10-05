@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "32a9556032caad115e256339a3961fe7",
+    "name" : "Scholastic Regression Suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

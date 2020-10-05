@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 05 10:27:40 EDT 2020","Mon Oct 05 10:27:40 EDT 2020","0","Scholastic Regression Suite","Login","Testcases.Login","Testcases.Login","login2","login2",""
+"passed","Mon Oct 05 10:27:52 EDT 2020","Mon Oct 05 10:27:52 EDT 2020","3","Scholastic Regression Suite","Sign Up","Testcases.SignIn","Testcases.SignIn","signIn2","signIn2",""
+"passed","Mon Oct 05 10:27:34 EDT 2020","Mon Oct 05 10:27:34 EDT 2020","88","Scholastic Regression Suite","Login","Testcases.Login","Testcases.Login","login1","login1",""
+"passed","Mon Oct 05 10:27:45 EDT 2020","Mon Oct 05 10:27:45 EDT 2020","1","Scholastic Regression Suite","Sign Up","Testcases.SignIn","Testcases.SignIn","signIn1","signIn1",""

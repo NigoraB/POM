@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "login1",
+    "uid" : "3c5a9af703b6d8cd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1601908054746,
+      "stop" : 1601908054834,
+      "duration" : 88
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome", "https://www.facebook.com" ]
+  }, {
+    "name" : "login2",
+    "uid" : "fa619cd31eadfaf9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1601908060527,
+      "stop" : 1601908060527,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome", "https://www.facebook.com" ]
+  }, {
+    "name" : "signIn1",
+    "uid" : "d4690aa2626c19bb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1601908065023,
+      "stop" : 1601908065024,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome", "https://www.facebook.com" ]
+  }, {
+    "name" : "signIn2",
+    "uid" : "1f4c8d29cdaae8fe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1601908072663,
+      "stop" : 1601908072666,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome", "https://www.facebook.com" ]
+  } ]
+}

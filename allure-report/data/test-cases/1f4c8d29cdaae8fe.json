@@ -1,0 +1,108 @@
+{
+  "uid" : "1f4c8d29cdaae8fe",
+  "name" : "signIn2",
+  "fullName" : "Testcases.SignIn.signIn2",
+  "historyId" : "a3b0190102ecd0a73b165a8df83c9330",
+  "time" : {
+    "start" : 1601908072663,
+    "stop" : 1601908072666,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initDriver",
+    "time" : {
+      "start" : 1601908065265,
+      "stop" : 1601908072624,
+      "duration" : 7359
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1601908072672,
+      "stop" : 1601908073013,
+      "duration" : 341
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Testcases.SignIn"
+  }, {
+    "name" : "testClass",
+    "value" : "Testcases.SignIn"
+  }, {
+    "name" : "testMethod",
+    "value" : "signIn2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Scholastic Regression Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Sign Up"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcases.SignIn"
+  }, {
+    "name" : "host",
+    "value" : "deepaks-mbp.lan"
+  }, {
+    "name" : "thread",
+    "value" : "35375@deepaks-mbp.lan.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browserName",
+    "value" : "chrome"
+  }, {
+    "name" : "url",
+    "value" : "https://www.facebook.com"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6d270eb331dffd24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601907671969,
+        "stop" : 1601907671974,
+        "duration" : 5
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f4c8d29cdaae8fe.json",
+  "parameterValues" : [ "chrome", "https://www.facebook.com" ]
+}

@@ -1,0 +1,69 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Testcases",
+    "children" : [ {
+      "name" : "Login",
+      "children" : [ {
+        "name" : "login1",
+        "uid" : "3c5a9af703b6d8cd",
+        "parentUid" : "31ba7162ef46698fece43753c04bfba5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601908054746,
+          "stop" : 1601908054834,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.facebook.com" ]
+      }, {
+        "name" : "login2",
+        "uid" : "fa619cd31eadfaf9",
+        "parentUid" : "31ba7162ef46698fece43753c04bfba5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601908060527,
+          "stop" : 1601908060527,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.facebook.com" ]
+      } ],
+      "uid" : "31ba7162ef46698fece43753c04bfba5"
+    }, {
+      "name" : "SignIn",
+      "children" : [ {
+        "name" : "signIn1",
+        "uid" : "d4690aa2626c19bb",
+        "parentUid" : "366b73f14bfa9f375c92951d1401a9e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601908065023,
+          "stop" : 1601908065024,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.facebook.com" ]
+      }, {
+        "name" : "signIn2",
+        "uid" : "1f4c8d29cdaae8fe",
+        "parentUid" : "366b73f14bfa9f375c92951d1401a9e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601908072663,
+          "stop" : 1601908072666,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.facebook.com" ]
+      } ],
+      "uid" : "366b73f14bfa9f375c92951d1401a9e7"
+    } ],
+    "uid" : "8bd4634af88c81325d216f0684d8bba2"
+  } ]
+}
